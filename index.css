@@ -4,11 +4,17 @@
 	width: 100%;
 	background-color: #3378EE;
 }
+.banner .logo{
+	height: 150px;
+	width: 200px;
+	/*background-color: red;*/
+	float: left;
+}
 .navbar{
 	margin-top: 3px;
 	height: 70px;
 	width: 100%;
-	background-color: lightblue;
+	background-color: #3378EE;
 }
 .navbar nav{
 	height: 70px;
@@ -41,26 +47,33 @@
 
 }
 .content{
-	height: 500px;
+	height: 600px;
 	width: 100%;
 	background-color: white;
 }
 .hottopic{
 	margin-top: 3px;
 	float: left;
-	height:500px;
-	width:30%;
-	background-color: #3378EE;
+	height:600px;
+	width:40%;
+	background-color: white;
 	font-size: 25px;
 	text-align: center;
 	/*border: 3px solid;*/
+}
+.subhottopic{
+	margin-top:2px;
+	float: left;
+	height: 198px;
+	width: 100%;
+	background-color: #3378EE;
 }
 .site{
 	margin-left: 3px;
 	margin-top: 3px;
 	float: left;
-	height:500px;
-	width: 35%;
+	height:600px;
+	width: 30%;
 	background-color: #3378EE;
 	font-size: 20px;
 
@@ -69,8 +82,19 @@
 	margin-top: 3px;
 	margin-left: 3px;
 	float: left;
-	height:500px;
-	width:34%;
+	height:600px;
+	width:29%;
 	background-color: #3378EE;
 	font-size: 25px;
+}
+.footer{
+	margin-top:5px;
+	height: 100px;
+	width: 100%;
+	background-color: #3378EE;
+	text-align: center;
+	font-size: 20px;
+}
+.footer .img{
+	border-radius: 5px;
 }
