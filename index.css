@@ -1,0 +1,76 @@
+*{margin: auto;}
+.banner{
+	height: 150px;
+	width: 100%;
+	background-color: #3378EE;
+}
+.navbar{
+	margin-top: 3px;
+	height: 70px;
+	width: 100%;
+	background-color: lightblue;
+}
+.navbar nav{
+	height: 70px;
+	width: 400px;
+	margin-right:2px;
+}
+.navbar nav .nabr{
+	height: 70px;
+	width: 100px;
+	background-color: lightgreen;
+	float:left;
+	text-align: center;
+	font-size: 20px;
+	line-height: 65px;
+	color:black;
+}
+
+/*.dropdown{
+	height: 70px;
+	width: 100px;
+	background-color: lightgreen;
+	float:left;
+	text-align: center;
+	font-size: 20px;
+	line-height: 65px;
+	color:black;
+}*/
+.navbar nav .nabr:hover{
+	background-color: darkgreen;
+
+}
+.content{
+	height: 500px;
+	width: 100%;
+	background-color: white;
+}
+.hottopic{
+	margin-top: 3px;
+	float: left;
+	height:500px;
+	width:30%;
+	background-color: #3378EE;
+	font-size: 25px;
+	text-align: center;
+	/*border: 3px solid;*/
+}
+.site{
+	margin-left: 3px;
+	margin-top: 3px;
+	float: left;
+	height:500px;
+	width: 35%;
+	background-color: #3378EE;
+	font-size: 20px;
+
+}
+.sitetwo{
+	margin-top: 3px;
+	margin-left: 3px;
+	float: left;
+	height:500px;
+	width:34%;
+	background-color: #3378EE;
+	font-size: 25px;
+}
