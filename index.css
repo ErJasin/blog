@@ -1,4 +1,8 @@
 *{margin: auto;}
+.wrapper{
+	height: auto;
+	width: 1200px;
+}
 .banner{
 	height: 150px;
 	width: 100%;
@@ -19,9 +23,9 @@
 .navbar nav{
 	height: 70px;
 	width: 400px;
-	margin-right:2px;
+	float: right;
 }
-.navbar nav .nabr{
+.navbar nav .nabr {
 	height: 70px;
 	width: 100px;
 	background-color: lightgreen;
@@ -30,9 +34,10 @@
 	font-size: 20px;
 	line-height: 65px;
 	color:black;
+	text-decoration:none;
 }
 
-/*.dropdown{
+.dropdown{
 	height: 70px;
 	width: 100px;
 	background-color: lightgreen;
@@ -41,7 +46,7 @@
 	font-size: 20px;
 	line-height: 65px;
 	color:black;
-}*/
+}
 .navbar nav .nabr:hover{
 	background-color: darkgreen;
 
@@ -68,6 +73,12 @@
 	width: 100%;
 	background-color: #3378EE;
 }
+.subhottopic .lastsubhottopic{
+	float: left;
+	height: 198px;
+	width: 30%;
+	background-color: lightgreen;
+}
 .site{
 	margin-left: 3px;
 	margin-top: 3px;
@@ -83,7 +94,7 @@
 	margin-left: 3px;
 	float: left;
 	height:600px;
-	width:29%;
+	width:29.5%;
 	background-color: #3378EE;
 	font-size: 25px;
 }
@@ -98,3 +109,25 @@
 .footer .img{
 	border-radius: 5px;
 }
+.blogcontent{
+	width: 100%;
+	height: 800px;
+	background-color:white;
+	margin-top:4px;
+
+}
+.blogcontent .subblogcontentone{
+	width: 50%;
+	height: 800px;
+	background-color: #3378EE;
+	float: left;
+	margin-right: 3.5px;
+}
+.blogcontent .subcontenttwo{
+	width: 49.69%;
+	height:24.6%;
+	background-color: #3378EE;
+	float: left;
+	margin-top: 3px;
+}
+
